@@ -1,0 +1,13 @@
+//Sorting technique
+//Bubble sort algorithm to sort in non-decreasing order
+//Complexity class O(n^2)
+
+BubbleSortAlgo(a[0...n-1], n)
+	for i <- 0 to n-2 do
+		for j<-0 to n-1-i do
+			if a[j] > a[j + 1]
+				swap(a[j], a[j + 1])
+			end if
+		end for
+	end for
+end BubbleSortAlgo
